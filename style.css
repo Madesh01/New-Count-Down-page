@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Satisfy&display=swap');
+
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1515995301990-280d37b2a8c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive; 
+}
+
+h1 {
+  font-size: 60px;
+}
+.countdown {
+    display: flex;
+    transform: scale(2);
+  }
+  
+  .time {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .year {
+    font-size: 200px;
+    padding-top: 50px;
+    opacity: 0.4;
+  }
+  small{
+    font-size: 25px;
+  }
